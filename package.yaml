@@ -10,6 +10,7 @@ default-extensions:
   - OverloadedStrings
   - StrictData
 
+
 dependencies:
   - aeson
   - async
@@ -40,7 +41,7 @@ executables:
 
   quad:
     main: Main.hs
-    source-dirs: app
+    source-dirs: src
     ghc-options:
       - -threaded
       - -rtsopts
